@@ -7,7 +7,7 @@ The platform is split into independently deployable Spring Boot services, each r
 ## Architecture
  
 All services register with Eureka for service discovery and communicate via OpenFeign. The API Gateway is the single entry point, handling JWT validation and routing to each downstream service. Services are containerized together on a shared Docker network.
-![Storyloom architecture diagram](architecture.png)
+![Storyloom architecture diagram](architechture.png)
  
 ## Services
  
